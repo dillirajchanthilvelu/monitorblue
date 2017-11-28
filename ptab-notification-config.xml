@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<notifications>
+    <delivery>NONE</delivery> <!-- EMAIL, ALERT, ALL, NONE -->
+    <ptabonly>false</ptabonly>
+    <whitelist></whitelist>
+    <event>
+        <type>REGISTRATION</type>
+        <name>User Registration</name>
+        <subject>User Registration</subject>
+        <delivery>EMAIL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>CHANGE_PASSWORD</type>
+        <name>Change Password</name>
+        <subject>Reset your password</subject>
+        <delivery>EMAIL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>CHANGE_PASSWORD_CONFIRM</type>
+        <name>Change Password Confirmation</name>
+        <subject>New Password Confirmation</subject>
+        <delivery>EMAIL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>REPORT_GAZETTE</type>
+        <name>Official Gazette</name>
+        <subject>Official Gazette</subject>
+        <delivery>EMAIL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>PETITION_SUBMISSION</type>
+        <name>Petition Submission</name>
+        <subject>Petition Submission</subject>
+        <delivery>ALL</delivery> <!-- EMAIL, ALERT, ALL, NONE -->
+        <priority>LOW</priority> <!-- LOW, MEDIUM, HIGH. For now, This is now only applicable for Alerts -->
+        <ptabonly>true</ptabonly> <!-- TRUE OR FALSE -->
+        <whitelist></whitelist> <!-- ptabsite2e1@gmail.com comma limited -->
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>ACCORD_FILING_DATE</type>
+        <name>Accord Filing Date</name>
+        <subject>Accord Filing Date</subject>
+        <delivery>ALL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>PAYMENT_RECEIPT</type>
+        <name>Payment Receipt</name>
+        <subject>Payment Receipt</subject>
+        <delivery>ALL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>PO_PRELIM_RESPONSE</type>
+        <name>PO Preliminary Response</name>
+        <subject>PO Preliminary Response</subject>
+        <delivery>ALL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>PRELIM_RESPONSE_WAIVER</type>
+        <name>Preliminary Response Waiver</name>
+        <subject>Preliminary Response Waiver</subject>
+        <delivery>ALL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>MN_FOURTEEN_DAY</type>
+        <name>Mandatory Notice 14 Days Reminder</name>
+        <subject>Mandatory Notice 14 Days Reminder</subject>
+        <delivery>ALERT</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>MN_TWENTY_ONE_DAY</type>
+        <name>Mandatory Notice 21 Days Reminder</name>
+        <subject>Mandatory Notice 21 Days Reminder</subject>
+        <delivery>ALERT</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>MN_RESPONSE_APPROVED</type>
+        <name>PO Mandatory Notice Approved</name>
+        <subject>PO Mandatory Notice Approved</subject>
+        <delivery>ALL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes> <!-- NotifyExceptionEnum -->
+        </retry>
+    </event>
+    <event>
+        <type>MN_RESPONSE_REJECTED</type>
+        <name>PO Mandatory Notice Rejected</name>
+        <subject>PO Mandatory Notice Rejected</subject>
+        <delivery>ALL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>DOCUMENT_UPLOAD</type>
+        <name>Document Upload</name>
+        <subject>Document Upload</subject>
+        <delivery>ALL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>REAL_PARTY_UPDATED</type>
+        <name>Real Party Updated</name>
+        <subject>Real Party Updated</subject>
+        <delivery>ALL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>COUNSEL_UPDATED</type>
+        <name>Counsel Updated</name>
+        <subject>Counsel Updated</subject>
+        <delivery>ALL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>PASSWORD_CHANGE_REMINDER</type>
+        <name>Password Change Reminder</name>
+        <subject>Password Change Reminder</subject>
+        <delivery>EMAIL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>MILESTONE_UPDATED</type>
+        <name>MileStone Update Notification</name>
+        <subject>MileStone Update Notification</subject>
+        <delivery>ALL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>ONE_MONTH_INSTITUTION_DECISION</type>
+        <name>One month reminder to institute trial</name>
+        <subject>One month reminder to institute trial</subject>
+        <delivery>EMAIL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>TWO_WEEKS_INSTITUTION_DECISION</type>
+        <name>Two Weeks reminder to institute trial</name>
+        <subject>Urgent Reminder: Less than two weeks remains to institute a trial</subject>
+        <delivery>EMAIL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>INSTITUTION_DECISION</type>
+        <name>Trial Institution Decision Notice</name>
+        <subject>Trial Institution Decision Notice</subject>
+        <delivery>ALL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>TERMINATION_DECISION</type>
+        <name>Trial Termination Decision Notice</name>
+        <subject>Trial Termination Decision Notice</subject>
+        <delivery>ALL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>TWO_WEEKS_FINAL_DECISION</type>
+        <name>Final Decision Two Weeks Reminder</name>
+        <subject>Urgent Reminder: Less than two weeks remains to enter a final decision</subject>
+        <delivery>EMAIL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>TWO_MONTHS_FINAL_DECISION</type>
+        <name>Final Decision Two Months Reminder</name>
+        <subject>Two Month Reminder for Final Decision on the case</subject>
+        <delivery>EMAIL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>INCOMPLETE_PETITION</type>
+        <name>Incomplete Petition</name>
+        <subject>Incomplete Petition</subject>
+        <delivery>ALL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>DEFECTIVE_PETITION</type>
+        <name>Defective Petition</name>
+        <subject>Defective Petition</subject>
+        <delivery>ALL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>MY_PANEL_ASSIGNMENT</type>
+        <name>My Panel Assignment</name>
+        <subject>You are assigned to a Panel</subject>
+        <delivery>ALERT</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>MY_PANEL_UNASSIGNMENT</type>
+        <name>My Panel Unassignment</name>
+        <subject>You are unassigned from a Panel</subject>
+        <delivery>ALERT</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>MY_PANEL_REASSIGNMENT</type>
+        <name>My Panel Reassignment</name>
+        <subject>You are reassigned in a Panel</subject>
+        <delivery>ALERT</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>OTHER_PANEL_ASSIGNMENT</type>
+        <name>Other Panel Member Assignment</name>
+        <subject>New Member added to your Panel</subject>
+        <delivery>ALERT</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>OTHER_PANEL_UNASSIGNMENT</type>
+        <name>Other Panel Member Unassignment</name>
+        <subject>Member removed from your Panel</subject>
+        <delivery>ALERT</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>OTHER_PANEL_REASSIGNMENT</type>
+        <name>Other Panel Member Reassignment</name>
+        <subject>Member reassigned in your Panel</subject>
+        <delivery>ALERT</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>TASK_ASSIGNED</type>
+        <name>Task Assigned</name>
+        <subject>Task Assigned</subject>
+        <delivery>ALERT</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>TASK_UNASSIGNED</type>
+        <name>Task Unassigned</name>
+        <subject>Task Unassigned</subject>
+        <delivery>ALERT</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>REHEARING_FILED</type>
+        <name>Rehearing Filed</name>
+        <subject>Rehearing Filed</subject>
+        <delivery>ALL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>MOTION_FILED</type>
+        <name>Motion Filed</name>
+        <subject>Motion Filed</subject>
+        <delivery>ALL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+    <event>
+        <type>APPEAL_FILED</type>
+        <name>Appeal Filed</name>
+        <subject>Appeal Filed</subject>
+        <delivery>ALL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+     <event>
+        <type>APPEAL_COMPLETED_DECISION</type>
+        <name>Appeal completed decision</name>
+        <subject>Appeal completed decision</subject>
+        <delivery>ALL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+              <!-- Adding value for mandatory notice -->
+    <event>
+        <type>REAL_PARTY_MANDATORY_NOTICE</type>
+        <name>Real party mandatory notice</name>
+        <subject>Patent owner mandatory notice filed</subject>
+        <delivery>ALL</delivery>
+        <priority>LOW</priority>
+        <ptabonly>true</ptabonly>
+        <whitelist></whitelist>
+        <retry>
+            <max>0</max>
+            <delay>10</delay>
+            <codes></codes>
+        </retry>
+    </event>
+</notifications>

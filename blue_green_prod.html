@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
+        <meta name="author" content="Coderthemes">
+
+        <link rel="shortcut icon" href="assets/images/favicon_1.ico">
+
+        <title>PTAB-E2E - Environment Dashboard</title>
+
+        <link href="assets/plugins/switchery/switchery.min.css" rel="stylesheet" />
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/core.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/icons.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/components.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/pages.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/menu.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/responsive.css" rel="stylesheet" type="text/css">
+
+        <script src="assets/js/modernizr.min.js"></script>
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+
+    <body class="fixed-left">
+        
+        <!-- Begin page -->
+        <div id="wrapper">
+        
+            <!-- Top Bar Start -->
+            <div class="topbar">
+
+                <!-- LOGO -->
+                <div class="topbar-left">
+                    <div class="text-center"> 
+                        <a href="index.html" class="logo"><i class="md md-equalizer"></i> <span>PTAB-E2E</span> </a>
+                    </div>
+                </div>
+
+                <!-- Navbar -->
+                <div class="navbar navbar-default" role="navigation">
+                    <div class="container">
+                        <div class="">
+                            <div class="pull-left">
+                                <button class="button-menu-mobile open-left waves-effect">
+                                    <i class="md md-menu"></i>
+                                </button>
+                                <span class="clearfix"></span>
+                            </div>
+
+                            <ul class="nav navbar-nav hidden-xs">
+                                <li><a href="http://ul97907:9090/dashboardNew" class="waves-effect">Home</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle waves-effect" data-toggle="dropdown"
+                                       role="button" aria-haspopup="true" aria-expanded="false">Projects <span
+                                            class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://ul97907:9090/dashboardNew">PTAB-E2E</a></li>
+                                      <!--  <li><a href="#">Projects two</a></li>
+                                        <li><a href="#">Graphic design</a></li>
+                                        <li><a href="#">Projects four</a></li>  -->
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <form role="search" class="navbar-left app-search pull-left hidden-xs">
+			                     <input type="text" placeholder="Search..." class="form-control app-search-input">
+			                     <a href=""><i class="fa fa-search"></i></a>
+			                </form>
+
+                            <ul class="nav navbar-nav navbar-right pull-right">
+
+                                <li class="dropdown hidden-xs">
+                                    <a href="#" data-target="#" class="dropdown-toggle waves-effect waves-light"
+                                       data-toggle="dropdown" aria-expanded="true">
+                                       
+										<a href="#" onclick="window.location.href = 'mailto:?subject=';" class="waves-effect waves-primary"><i
+                                        class="md md-mail"></i><span> Mail </span></a>
+                                    </a>
+									
+									<li class="dropdown hidden-xs">
+                                    <a href="#" data-target="#" class="dropdown-toggle waves-effect waves-light"
+                                       data-toggle="dropdown" aria-expanded="true">
+                                        <i class="md md-notifications"></i> <span
+                                            class="badge badge-xs badge-pink">2</span>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-lg">
+                                        <li class="text-center notifi-title">Notification</li>
+                                        <li class="list-group nicescroll notification-list">
+                                            <!-- list item-->
+                                             <a href="javascript:void(0);" class="list-group-item">
+                                                <div class="media">
+                                                    <div class="pull-left p-r-10">
+                                                        <em class="fa fa-bell-o noti-success"></em>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h5 class="media-heading"><font color='red'>01/30/2016 Internal user<br>Password Expiration</font></h5>
+                                                        <p class="m-0">
+                                                            <small></small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+											
+											<a href="javascript:void(0);" class="list-group-item">
+                                                <div class="media">
+                                                    <div class="pull-left p-r-10">
+                                                        <em class="fa fa-bell-o noti-success"></em>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h5 class="media-heading"><font color='red'>02/04/2016 RAM will be down <br> between 12:00 P.M and 5:30 P.M</font></h5>
+                                                        <p class="m-0">
+                                                            <small></small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+
+                                            <!-- list item-->
+                                           
+
+                                            <!-- list item-->
+                                            <!--<a href="javascript:void(0);" class="list-group-item">
+                                                <div class="media">
+                                                    <div class="pull-left p-r-10">
+                                                        <em class="fa fa-bell-o noti-success"></em>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h5 class="media-heading">Updates</h5>
+                                                        <p class="m-0">
+                                                            <small>There are <span class="text-primary">2</span> new
+                                                                updates available
+                                                            </small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>  -->
+
+                                        </li>
+
+                                        <!--<li>
+                                            <a href="javascript:void(0);" class=" text-right">
+                                                <small><b>See all notifications</b></small>
+                                            </a>
+                                        </li>  -->
+
+                                    </ul>
+                                </li>
+									
+                                    <ul class="dropdown-menu dropdown-menu-lg">
+                                        <li class="text-center notifi-title">Notification</li>
+                                        <li class="list-group nicescroll notification-list">
+                                            <!-- list item-->
+                                            <a href="javascript:void(0);" class="list-group-item">
+                                                <div class="media">
+                                                    <div class="pull-left p-r-10">
+                                                        <em class="fa fa-diamond noti-primary"></em>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h5 class="media-heading">A new order has been placed A new
+                                                            order has been placed</h5>
+                                                        <p class="m-0">
+                                                            <small>There are new settings available</small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+
+                                            <!-- list item-->
+                                            <a href="javascript:void(0);" class="list-group-item">
+                                                <div class="media">
+                                                    <div class="pull-left p-r-10">
+                                                        <em class="fa fa-cog noti-warning"></em>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h5 class="media-heading">New settings</h5>
+                                                        <p class="m-0">
+                                                            <small>There are new settings available</small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+
+                                            <!-- list item-->
+                                            <a href="javascript:void(0);" class="list-group-item">
+                                                <div class="media">
+                                                    <div class="pull-left p-r-10">
+                                                        <em class="fa fa-bell-o noti-success"></em>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h5 class="media-heading">Updates</h5>
+                                                        <p class="m-0">
+                                                            <small>There are <span class="text-primary">2</span> new
+                                                                updates available
+                                                            </small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+
+                                        </li>
+
+                                        <li>
+                                            <a href="javascript:void(0);" class=" text-right">
+                                                <small><b>See all notifications</b></small>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li class="hidden-xs">
+                                    <a href="#" class="right-bar-toggle waves-effect waves-light"><i
+                                            class="md md-settings"></i></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <!--/.nav-collapse -->
+                    </div>
+                </div>
+            </div>
+            <!-- Top Bar End -->
+
+
+            <!-- ========== Left Sidebar Start ========== -->
+            <div class="left side-menu">
+                <div class="sidebar-inner slimscrollleft">
+
+                    <div id="sidebar-menu">
+                        <ul>
+                          
+                          <li>
+                                <a href="/dashboardNew/Admin/blue/environments.html" class="waves-effect waves-primary subdrop"><i
+                                        class="md md-view-list"></i><span>Environment Status </span></a>
+                            </li>
+							
+							<li>
+                                <a href="/dashboardNew/Admin/blue/sprint_inventory.html" class="waves-effect waves-primary subdrop"><i
+                                        class="md md-view-list"></i><span>Sprint Inventory </span></a>
+                            </li>
+							<li>
+                                <a href="/dashboardNew/Admin/blue/pTabcalendar.html" class="waves-effect waves-primary subdrop"><i
+                                        class="md md-view-list"></i><span>Calendar</span></a>
+                            </li>
+							<li>
+                                <a href="/dashboardNew/Admin/blue/ptabProdMetrics.html" class="waves-effect waves-primary subdrop"><i
+                                        class="md md-view-list"></i><span>PTAB PROD Metrics</span></a>
+                            </li>
+							<li>
+                                <a href="https://prod-cicm.uspto.gov/sonar/overview?id=gov.uspto.ptab.e2e%3Aptab-e2e-dev" class="waves-effect waves-primary subdrop" target="new"><i
+                                        class="md md-view-list"></i><span>Sonar Coverage</span></a>
+                            </li>
+							
+							<li>
+                                <a href="https://analytics.google.com/analytics/web/?authuser=1#report/visitors-geo/a94093926w139039036p143377240/" class="waves-effect waves-primary subdrop" target="new"><i
+                                        class="md md-view-list"></i><span>Analytics</span></a>
+                            </li>
+							
+							<li>
+                                <a href="https://ruam-prod-1.uspto.gov:8181/controller/#/location=APP_DASHBOARD&timeRange=last_15_minutes.BEFORE_NOW.-1.-1.15&application=31&dashboardMode=force" class="waves-effect waves-primary subdrop" target="new"><i
+                                        class="md md-view-list"></i><span>AppDynamics</span></a>
+                            </li>
+							<li>
+                                <a href="https://aecas.uspto.gov:8000/en-US/app/ptab/search?q=search%20ptab*&sid=1492451594.1180956&display.page.search.mode=fast&dispatch.sample_ratio=1&earliest=-15m&latest=now" class="waves-effect waves-primary subdrop" target="new"><i
+                                        class="md md-view-list"></i><span>Splunk</span></a>
+                            </li>
+							
+							<li>
+                                <a href="blue_green_pvt.html" class="waves-effect waves-primary subdrop"><i
+                                        class="md md-view-list"></i><span>Blue Green PVT</span></a>
+                            </li>
+							<li>
+                                <a href="blue_green_prod.html" class="waves-effect waves-primary subdrop"><i
+                                        class="md md-view-list"></i><span>Blue Green PROD</span></a>
+                            </li>
+<!--
+                            <li class="has_sub">
+                                <a href="#" class="waves-effect waves-primary"><i
+                                        class="md md-invert-colors-on"></i><span> Components </span> <span
+                                        class="label label-default pull-right">5</span> </a>
+                                <ul class="list-unstyled">
+                                    <li><a href="components-grid.html">Grid</a></li>
+                                    <li><a href="components-widgets.html">Widgets</a></li>
+                                    <li><a href="components-nestable-list.html">Nesteble</a></li>
+                                    <li><a href="components-range-sliders.html">Range Sliders </a></li>
+                                    <li><a href="components-sweet-alert.html">Sweet Alerts </a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has_sub">
+                                <a href="#" class="waves-effect waves-primary"><i class="md md-redeem"></i>
+                                    <span> Icons </span> </a>
+                                <ul class="list-unstyled">
+                                    <li><a href="icons-glyphicons.html">Glyphicons</a></li>
+                                    <li><a href="icons-materialdesign.html">Material Design</a></li>
+                                    <li><a href="icons-themifyicon.html">Themify Icons</a></li>
+                                    <li><a href="icons-ionicons.html">Ion Icons</a></li>
+                                    <li><a href="icons-fontawesome.html">Font awesome</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has_sub">
+                                <a href="#" class="waves-effect waves-primary"><i class="md md-now-widgets"></i><span> Forms </span></a>
+                                <ul class="list-unstyled">
+                                    <li><a href="form-elements.html">General Elements</a></li>
+                                    <li><a href="form-advanced.html">Advanced Form</a></li>
+                                    <li><a href="form-validation.html">Form Validation</a></li>
+                                    <li><a href="form-wizard.html">Form Wizard</a></li>
+                                    <li><a href="form-wysiwig.html">WYSIWYG Editor</a></li>
+                                    <li><a href="form-summernote.html">Summernote</a></li>
+                                    <li><a href="form-uploads.html">Multiple File Upload</a></li>
+                                    <li><a href="form-xeditable.html">X-editable</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has_sub">
+                                <a href="#" class="waves-effect waves-primary active"><i class="md md-view-list"></i><span> Tables </span></a>
+                                <ul class="list-unstyled">
+                                    <li class="active"><a href="tables-basic.html">Basic Tables</a></li>
+                                    <li><a href="tables-datatable.html">Data Table</a></li>
+                                    <li><a href="tables-editable.html">Editable Table</a></li>
+                                    <li><a href="tables-responsive.html">Responsive Table</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has_sub">
+                                <a href="#" class="waves-effect waves-primary"><i
+                                        class="md md-poll"></i><span> Charts </span> </a>
+                                <ul class="list-unstyled">
+                                    <li><a href="chart-flot.html">Flot Chart</a></li>
+                                    <li><a href="chart-morris.html">Morris Chart</a></li>
+                                    <li><a href="chart-chartist.html">Chartist chart</a></li>
+                                    <li><a href="chart-nvd3.html">Nvd3 charts</a></li>
+                                    <li><a href="chart-peity.html">Peity Charts</a></li>
+                                    <li><a href="chart-sparkline.html">Sparkline Charts</a></li>
+                                    <li><a href="chart-other.html">Other Chart</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has_sub">
+                                <a href="#" class="waves-effect waves-primary"><i
+                                        class="md md-place"></i><span> Maps </span> <span
+                                        class="label label-primary pull-right">2</span></a>
+                                <ul class="list-unstyled">
+                                    <li><a href="map-google.html"> Google Map</a></li>
+                                    <li><a href="map-vector.html"> Vector Map</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="text-muted menu-title">More</li>
+
+                            <li class="has_sub">
+                                <a href="#" class="waves-effect waves-primary"><i
+                                        class="md md-mail"></i><span> Mail </span></a>
+                                <ul class="list-unstyled">
+                                    <li><a href="mail-inbox.html">Inbox</a></li>
+                                    <li><a href="mail-compose.html">Compose Mail</a></li>
+                                    <li><a href="mail-read.html">View Mail</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has_sub">
+                                <a href="#" class="waves-effect waves-primary"><i
+                                        class="md md-pages"></i><span> Pages </span></a>
+                                <ul class="list-unstyled">
+                                    <li><a href="pages-blank.html">Blank Page</a></li>
+                                    <li><a href="pages-login.html">Login</a></li>
+                                    <li><a href="pages-register.html">Register</a></li>
+                                    <li><a href="pages-recoverpw.html">Recover Password</a></li>
+                                    <li><a href="pages-lock-screen.html">Lock Screen</a></li>
+                                    <li><a href="pages-404.html">404 Error</a></li>
+                                    <li><a href="pages-500.html">500 Error</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has_sub">
+                                <a href="#" class="waves-effect waves-primary"><i
+                                        class="md md-place"></i><span> Extras </span></a>
+                                <ul class="list-unstyled">
+                                    <li><a href="extras-timeline.html">Timeline</a></li>
+                                    <li><a href="extras-invoice.html">Invoice</a></li>
+                                    <li><a href="extras-calendar.html"> Calendar</a></li>
+                                    <li><a href="extras-email-template.html">Email template</a></li>
+                                    <li><a href="extras-maintenance.html">Maintenance</a></li>
+                                    <li><a href="extras-coming-soon.html">Coming-soon</a></li>
+                                    <li><a href="extras-gallery.html"> Gallery</a></li>
+                                </ul>
+                            </li>  -->
+
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+
+
+                    <div class="clearfix"></div>
+                </div>
+
+                
+            </div>
+            <!-- Left Sidebar End --> 
+
+
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->                      
+            <div class="content-page">
+               <center>
+
+	<br>
+	
+		<font color='red'><b>Allow State Change on Blue Servers</b></font>
+
+	<a href="javascript:allowStateChgOnBlue()">Allow State Change on Blue Servers</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><a href="javascript:allowStateChgOnGreen()">Allow State Change on Green Servers</a>
+
+	<br><br><br><br>
+
+<!--
+	<br>
+	<a href="javascript:initializeBlueEndpointString()">Initialize Blue Endpoint return value (active and passive)</a>
+	<br>
+	<a href="javascript:initializeGreenEndpointString()">Initialize Green Endpoint return value (active and passive)</a>
+	<br><br>
+-->
+
+   <!-- <button class="btn btn-primary waves-effect waves-light m-t-10" data-toggle="modal" data-target="#con-close-modal"><font color='red'><b>
+	<a href="javascript:updateBlueStateFromDB()">Update Blue Server State from Database</a>
+	</b></font></button>
+	<button class="btn btn-primary waves-effect waves-light m-t-10" data-toggle="modal1" data-target="#con-close-modal"><font color='red'><b>
+	<a href="javascript:updateGreenStateFromDB()">Update Green Server State from Database</a>
+	</b></font></button>
+	<!--<a href="javascript:updateBlueStateFromDB()">Update Blue Server State from Database</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+	<a href="javascript:updateGreenStateFromDB()">Update Green Server State from Database</a>  -->
+		<h1 class="text-success counter"><a href="javascript:updateBlueStateFromDB()"><font color='RED'><center>BLUE GREEN PROD</center></green></a></script></h1>
+	<br><br><br><br>
+<div class="row">
+                            <div class="col-sm-6 col-lg-6">
+                                <div class="widget-simple-chart text-right card-box">
+                                    <div class="circliful-chart" data-dimension="90" data-text="35%" data-width="5" data-fontsize="14" data-percent="35" data-fgcolor="#5fbeaa" data-bgcolor="#ebeff2"></div>
+                                    <h3 class="text-success counter"><a href="javascript:updateBlueStateFromDB()"><font color='green'><center>Update Green Server State</center></green></a></script></h3>
+                                    <p class="text-muted"><center>Update Green Server State from Database......</center></p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-6">
+                                <div class="widget-simple-chart text-right card-box">
+                                    <div class="circliful-chart" data-dimension="90" data-text="85%" data-width="5" data-fontsize="14" data-percent="85" data-fgcolor="#3bafda" data-bgcolor="#ebeff2"></div>
+                                    <h3 class="text-primary counter"><a href="javascript:updateBlueStateFromDB()"><center>Update Blue Server State</center></a></script></h3>
+                                    <p class="text-muted"><center>Update Blue Server State from Database......</center></script></p>
+                                </div>
+                            </div>
+
+                        </div>
+<!--
+	<a href="javascript:makeBlueActive()">Make Blue Active</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:makeGreenPassive()">Make Green Passive</a>
+	<br><br><br><br>
+	<a href="javascript:makeGreenActive()">Make Green Active</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:makeBluePassive()">Make Blue Passive</a>
+
+	<br><br><br><br>
+-->
+    
+							<div class="col-sm-6 col-lg-3">
+                                <div class="widget-simple-chart text-right card-box">
+                                    <div class="circliful-chart" data-dimension="90" data-text="85%" data-width="5" data-fontsize="14" data-percent="85" data-fgcolor="#3bafda" data-bgcolor="#ebeff2"></div>
+                                    <h3 class="text-primary counter"><a href="javascript:checkBlueEndpointsEAP()"><center><i class="fa fa-check"></i>&nbsp;Check EAP Blue Endpoints</center></a></script></h3>
+                                   
+                                </div>
+                            </div>
+							
+							<div class="col-sm-6 col-lg-3">
+                                <div class="widget-simple-chart text-right card-box">
+                                    <div class="circliful-chart" data-dimension="90" data-text="85%" data-width="5" data-fontsize="14" data-percent="85" data-fgcolor="#3bafda" data-bgcolor="#ebeff2"></div>
+                                    <h3 class="text-success counter"><a href="javascript:checkGreenEndpointsEAP()"><center><font color='red'><i class="glyphicon glyphicon-remove-sign"></font></i>&nbsp;<font color='green'>Check EAP Green Endpoints</font></center></a></script></h3>
+                                   
+                                </div>
+                            </div>	
+							<div class="col-sm-6 col-lg-3">
+                                <div class="widget-simple-chart text-right card-box">
+                                    <div class="circliful-chart" data-dimension="90" data-text="85%" data-width="5" data-fontsize="14" data-percent="85" data-fgcolor="#3bafda" data-bgcolor="#ebeff2"></div>
+                                    <h3 class="text-primary counter"><a href="javascript:checkBlueEndpointsEWS()"><center><i class="fa fa-check"></i>&nbsp;Check EWS Green Endpoints</center></a></script></h3>
+                                   
+                                </div>
+                            </div>
+							<div class="col-sm-6 col-lg-3">
+                                <div class="widget-simple-chart text-right card-box">
+                                    <div class="circliful-chart" data-dimension="90" data-text="85%" data-width="5" data-fontsize="14" data-percent="85" data-fgcolor="#3bafda" data-bgcolor="#ebeff2"></div>
+                                    <h3 class="text-success counter"><a href="javascript:checkGreenEndpointsEWS()"><center><font color='red'><i class="glyphicon glyphicon-remove-sign"></font></i>&nbsp;<font color='green'>Check EWS Green Endpoints</font></center></a></script></h3>
+                                   
+                                </div>
+                            </div>							
+	
+	<br><br><br><br>
+	
+	<div class="col-sm-6 col-lg-3">
+                                <div class="widget-simple-chart text-right card-box">
+                                    <div class="circliful-chart" data-dimension="90" data-text="85%" data-width="5" data-fontsize="14" data-percent="85" data-fgcolor="#3bafda" data-bgcolor="#ebeff2"></div>
+                                    <h3 class="text-primary counter"><a href="javascript:gotoInternalPtabActive()"><center><i class="fa fa-heartbeat"></i>&nbsp;Internal PTAB Active</center></a></script></h3>
+                                   
+                                </div>
+                            </div>
+							
+							<div class="col-sm-6 col-lg-3">
+                                <div class="widget-simple-chart text-right card-box">
+                                    <div class="circliful-chart" data-dimension="90" data-text="85%" data-width="5" data-fontsize="14" data-percent="85" data-fgcolor="#3bafda" data-bgcolor="#ebeff2"></div>
+                                    <h3 class="text-primary counter"><a href="javascript:gotoInternalPtabPassive()"><center><font color='red'><i class="glyphicon glyphicon-remove-sign"></font></i>&nbsp;<font color='green'>Internal PTAB Passive</font></center></a></script></h3>
+                                   
+                                </div>
+                            </div>	
+							<div class="col-sm-6 col-lg-3">
+                                <div class="widget-simple-chart text-right card-box">
+                                    <div class="circliful-chart" data-dimension="90" data-text="85%" data-width="5" data-fontsize="14" data-percent="85" data-fgcolor="#3bafda" data-bgcolor="#ebeff2"></div>
+                                    <h3 class="text-primary counter"><a href="javascript:gotoExternalPtabActive()"><center><i class="fa fa-heartbeat"></i>&nbsp;External PTAB Active</center></a></script></h3>
+                                   
+                                </div>
+                            </div>
+							<div class="col-sm-6 col-lg-3">
+                                <div class="widget-simple-chart text-right card-box">
+                                    <div class="circliful-chart" data-dimension="90" data-text="85%" data-width="5" data-fontsize="14" data-percent="85" data-fgcolor="#3bafda" data-bgcolor="#ebeff2"></div>
+                                    <h3 class="text-primary counter"><a href="javascript:gotoExternalPtabPassive()"><center><font color='red'><i class="glyphicon glyphicon-remove-sign"></font></i>&nbsp;<font color='green'>External PTAB Passive</font></center></a></script></h3>
+                                   
+                                </div>
+                            </div>					
+	
+
+</center>
+
+
+                </div>
+                <!-- end content -->
+
+
+
+                <!-- FOOTER -->
+                <!--<footer class="footer text-right">
+                    2016 © Minton.
+                </footer>  -->
+                <!-- End FOOTER -->
+
+            </div>
+			
+			<div id="con-close-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                    <h4 class="modal-title"><font color='red'>Blue Server State Updated From Database</font></h4>
+                                                </div>
+                                                <div class="modal-body">
+
+													<center><font color='red'></font></center>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Close</button>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+			<div id="con-close-modal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                    <h4 class="modal-title"><font color='red'>Green Server State Updated From Database</font></h4>
+                                                </div>
+                                                <div class="modal-body">
+
+													<center><font color='red'></font></center>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Close</button>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>										
+            <!-- ============================================================== -->
+            <!-- End Right content here -->
+            <!-- ============================================================== -->
+
+
+            <!-- Right Sidebar -->
+          <!--  <div class="side-bar right-bar">
+                <div class="nicescroll">
+                    <ul class="nav nav-tabs tabs">
+                        <li class="active tab">
+                            <a href="#home-2" data-toggle="tab" aria-expanded="false">
+                                <span class="visible-xs"><i class="fa fa-home"></i></span>
+                                <span class="hidden-xs">Activity</span>
+                            </a>
+                        </li>
+                        <li class="tab">
+                            <a href="#profile-2" data-toggle="tab" aria-expanded="false">
+                                <span class="visible-xs"><i class="fa fa-user"></i></span>
+                                <span class="hidden-xs">Chat</span>
+                            </a>
+                        </li>
+                        <li class="tab">
+                            <a href="#messages-2" data-toggle="tab" aria-expanded="true">
+                                <span class="visible-xs"><i class="fa fa-envelope-o"></i></span>
+                                <span class="hidden-xs">Settings</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="home-2">
+                            <div class="timeline-2">
+                                <div class="time-item">
+                                    <div class="item-info">
+                                        <small class="text-muted">5 minutes ago</small>
+                                        <p><strong><a href="#" class="text-info">John Doe</a></strong> Uploaded a photo <strong>"DSC000586.jpg"</strong></p>
+                                    </div>
+                                </div>
+
+                                <div class="time-item">
+                                    <div class="item-info">
+                                        <small class="text-muted">30 minutes ago</small>
+                                        <p><a href="" class="text-info">Lorem</a> commented your post.</p>
+                                        <p><em>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam laoreet tellus ut tincidunt euismod. "</em></p>
+                                    </div>
+                                </div>
+
+                                <div class="time-item">
+                                    <div class="item-info">
+                                        <small class="text-muted">59 minutes ago</small>
+                                        <p><a href="" class="text-info">Jessi</a> attended a meeting with<a href="#" class="text-success">John Doe</a>.</p>
+                                        <p><em>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam laoreet tellus ut tincidunt euismod. "</em></p>
+                                    </div>
+                                </div>
+
+                                <div class="time-item">
+                                    <div class="item-info">
+                                        <small class="text-muted">1 hour ago</small>
+                                        <p><strong><a href="#" class="text-info">John Doe</a></strong>Uploaded 2 new photos</p>
+                                    </div>
+                                </div>
+
+                                <div class="time-item">
+                                    <div class="item-info">
+                                        <small class="text-muted">3 hours ago</small>
+                                        <p><a href="" class="text-info">Lorem</a> commented your post.</p>
+                                        <p><em>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam laoreet tellus ut tincidunt euismod. "</em></p>
+                                    </div>
+                                </div>
+
+                                <div class="time-item">
+                                    <div class="item-info">
+                                        <small class="text-muted">5 hours ago</small>
+                                        <p><a href="" class="text-info">Jessi</a> attended a meeting with<a href="#" class="text-success">John Doe</a>.</p>
+                                        <p><em>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam laoreet tellus ut tincidunt euismod. "</em></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="tab-pane fade" id="profile-2">
+                            <div class="contact-list nicescroll">
+                                <ul class="list-group contacts-list">
+                                    <li class="list-group-item">
+                                        <a href="#">
+                                            <div class="avatar">
+                                                <img src="assets/images/users/avatar-1.jpg" alt="">
+                                            </div>
+                                            <span class="name">Chadengle</span>
+                                            <i class="fa fa-circle online"></i>
+                                        </a>
+                                        <span class="clearfix"></span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">
+                                            <div class="avatar">
+                                                <img src="assets/images/users/avatar-2.jpg" alt="">
+                                            </div>
+                                            <span class="name">Tomaslau</span>
+                                            <i class="fa fa-circle online"></i>
+                                        </a>
+                                        <span class="clearfix"></span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">
+                                            <div class="avatar">
+                                                <img src="assets/images/users/avatar-3.jpg" alt="">
+                                            </div>
+                                            <span class="name">Stillnotdavid</span>
+                                            <i class="fa fa-circle online"></i>
+                                        </a>
+                                        <span class="clearfix"></span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">
+                                            <div class="avatar">
+                                                <img src="assets/images/users/avatar-4.jpg" alt="">
+                                            </div>
+                                            <span class="name">Kurafire</span>
+                                            <i class="fa fa-circle online"></i>
+                                        </a>
+                                        <span class="clearfix"></span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">
+                                            <div class="avatar">
+                                                <img src="assets/images/users/avatar-5.jpg" alt="">
+                                            </div>
+                                            <span class="name">Shahedk</span>
+                                            <i class="fa fa-circle away"></i>
+                                        </a>
+                                        <span class="clearfix"></span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">
+                                            <div class="avatar">
+                                                <img src="assets/images/users/avatar-6.jpg" alt="">
+                                            </div>
+                                            <span class="name">Adhamdannaway</span>
+                                            <i class="fa fa-circle away"></i>
+                                        </a>
+                                        <span class="clearfix"></span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">
+                                            <div class="avatar">
+                                                <img src="assets/images/users/avatar-7.jpg" alt="">
+                                            </div>
+                                            <span class="name">Ok</span>
+                                            <i class="fa fa-circle away"></i>
+                                        </a>
+                                        <span class="clearfix"></span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">
+                                            <div class="avatar">
+                                                <img src="assets/images/users/avatar-8.jpg" alt="">
+                                            </div>
+                                            <span class="name">Arashasghari</span>
+                                            <i class="fa fa-circle offline"></i>
+                                        </a>
+                                        <span class="clearfix"></span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">
+                                            <div class="avatar">
+                                                <img src="assets/images/users/avatar-9.jpg" alt="">
+                                            </div>
+                                            <span class="name">Joshaustin</span>
+                                            <i class="fa fa-circle offline"></i>
+                                        </a>
+                                        <span class="clearfix"></span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">
+                                            <div class="avatar">
+                                                <img src="assets/images/users/avatar-10.jpg" alt="">
+                                            </div>
+                                            <span class="name">Sortino</span>
+                                            <i class="fa fa-circle offline"></i>
+                                        </a>
+                                        <span class="clearfix"></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+                        <div class="tab-pane fade" id="messages-2">
+
+                            <div class="row m-t-20">
+                                <div class="col-xs-8">
+                                    <h5 class="m-0">Notifications</h5>
+                                    <p class="text-muted m-b-0"><small>Do you need them?</small></p>
+                                </div>
+                                <div class="col-xs-4 text-right">
+                                    <input type="checkbox" checked data-plugin="switchery" data-color="#3bafda" data-size="small"/>
+                                </div>
+                            </div>
+
+                            <div class="row m-t-20">
+                                <div class="col-xs-8">
+                                    <h5 class="m-0">API Access</h5>
+                                    <p class="m-b-0 text-muted"><small>Enable/Disable access</small></p>
+                                </div>
+                                <div class="col-xs-4 text-right">
+                                    <input type="checkbox" checked data-plugin="switchery" data-color="#3bafda" data-size="small"/>
+                                </div>
+                            </div>
+
+                            <div class="row m-t-20">
+                                <div class="col-xs-8">
+                                    <h5 class="m-0">Auto Updates</h5>
+                                    <p class="m-b-0 text-muted"><small>Keep up to date</small></p>
+                                </div>
+                                <div class="col-xs-4 text-right">
+                                    <input type="checkbox" checked data-plugin="switchery" data-color="#3bafda" data-size="small"/>
+                                </div>
+                            </div>
+
+                            <div class="row m-t-20">
+                                <div class="col-xs-8">
+                                    <h5 class="m-0">Online Status</h5>
+                                    <p class="m-b-0 text-muted"><small>Show your status to all</small></p>
+                                </div>
+                                <div class="col-xs-4 text-right">
+                                    <input type="checkbox" checked data-plugin="switchery" data-color="#3bafda" data-size="small"/>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>  -->
+            <!-- /Right-bar -->
+
+        </div>
+        <!-- END wrapper -->
+
+
+    
+        <script>
+            var resizefunc = [];
+        </script>
+
+        <!-- jQuery  -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/detect.js"></script>
+        <script src="assets/js/fastclick.js"></script>
+        <script src="assets/js/jquery.slimscroll.js"></script>
+        <script src="assets/js/jquery.blockUI.js"></script>
+        <script src="assets/js/waves.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/jquery.nicescroll.js"></script>
+        <script src="assets/js/jquery.scrollTo.min.js"></script>
+        <script src="assets/plugins/switchery/switchery.min.js"></script>
+
+        <script src="assets/js/jquery.core.js"></script>
+        <script src="assets/js/jquery.app.js"></script>
+    
+    </body>
+	
+	<script>
+function initializeBlueEndpointString()
+{
+	window.open('https://ptab-intservices-eap-blue-0.cld.uspto.gov:8443/bghealth/endpoint/aa?reqType=setPassiveString&passiveString=passive', '_blank');
+	window.open('https://ptab-intservices-eap-blue-1.cld.uspto.gov:8443/bghealth/endpoint/aa?reqType=setPassiveString&passiveString=passive', '_blank');
+	window.open('https://ptab-intservices-eap-blue-2.cld.uspto.gov:8443/bghealth/endpoint/aa?reqType=setPassiveString&passiveString=passive', '_blank');
+	window.open('https://ptab-intservices-eap-blue-3.cld.uspto.gov:8443/bghealth/endpoint/aa?reqType=setPassiveString&passiveString=passive', '_blank');
+
+	window.open('https://ptab-intservices-eap-blue-0.cld.uspto.gov:8443/bghealth/endpoint/aa?reqType=setActiveString&activeString=active', '_blank');
+	window.open('https://ptab-intservices-eap-blue-1.cld.uspto.gov:8443/bghealth/endpoint/aa?reqType=setActiveString&activeString=active', '_blank');
+	window.open('https://ptab-intservices-eap-blue-2.cld.uspto.gov:8443/bghealth/endpoint/aa?reqType=setActiveString&activeString=active', '_blank');
+	window.open('https://ptab-intservices-eap-blue-3.cld.uspto.gov:8443/bghealth/endpoint/aa?reqType=setActiveString&activeString=active', '_blank');
+
+	window.open('https://ptab-services-eap-blue-0.cld.uspto.gov:8443/bghealth/endpoint/aa?reqType=setPassiveString&passiveString=passive', '_blank');
+	window.open('https://ptab-services-eap-blue-1.cld.uspto.gov:8443/bghealth/endpoint/aa?reqType=setPassiveString&passiveString=passive', '_blank');
+	window.open('https://ptab-services-eap-blue-2.cld.uspto.gov:8443/bghealth/endpoint/aa?reqType=setPassiveString&passiveString=passive', '_blank');
+	window.open('https://ptab-services-eap-blue-3.cld.uspto.gov:8443/bghealth/endpoint/aa?reqType=setPassiveString&passiveString=passive', '_blank');
+	window.open('https://ptab-services-eap-blue-4.cld.uspto.gov:8443/bghealth/endpoint/aa?reqType=setPassiveString&passiveString=passive', '_blank');
+	window.open('https://ptab-services-eap-blue-5.cld.uspto.gov:8443/bghealth/endpoint/aa?reqType=setPassiveString&passiveString=passive', '_blank');
+
+	window.open('https://ptab-services-eap-blue-2.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setActiveString&activeString=active', '_blank');
+	window.open('https://ptab-services-eap-blue-3.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setActiveString&activeString=active', '_blank');
+	window.open('https://ptab-services-eap-blue-4.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setActiveString&activeString=active', '_blank');
+	window.open('https://ptab-services-eap-blue-5.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setActiveString&activeString=active', '_blank');
+	window.open('https://ptab-services-eap-blue-6.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setActiveString&activeString=active', '_blank');
+	window.open('https://ptab-services-eap-blue-7.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setActiveString&activeString=active', '_blank');
+
+}
+
+
+function initializeGreenEndpointString()
+{
+	window.open('https://ptab-intservices-eap-green-0.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setActiveString&activeString=active', '_blank');
+	window.open('https://ptab-intservices-eap-green-1.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setActiveString&activeString=active', '_blank');
+	window.open('https://ptab-intservices-eap-green-2.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setActiveString&activeString=active', '_blank');
+	window.open('https://ptab-intservices-eap-green-4.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setActiveString&activeString=active', '_blank');
+
+	window.open('https://ptab-intservices-eap-green-0.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setPassiveString&passiveString=passive', '_blank');
+	window.open('https://ptab-intservices-eap-green-1.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setPassiveString&passiveString=passive', '_blank');
+	window.open('https://ptab-intservices-eap-green-2.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setPassiveString&passiveString=passive', '_blank');
+	window.open('https://ptab-intservices-eap-green-4.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setPassiveString&passiveString=passive', '_blank');
+
+	window.open('https://ptab-services-eap-green-4.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setPassiveString&passiveString=passive', '_blank');
+	window.open('https://ptab-services-eap-green-5.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setPassiveString&passiveString=passive', '_blank');
+	window.open('https://ptab-services-eap-green-6.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setPassiveString&passiveString=passive', '_blank');
+	window.open('https://ptab-services-eap-green-8.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setPassiveString&passiveString=passive', '_blank');
+	window.open('https://ptab-services-eap-green-9.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setPassiveString&passiveString=passive', '_blank');
+	window.open('https://ptab-services-eap-green-10.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setPassiveString&passiveString=passive', '_blank');
+
+	window.open('https://ptab-services-eap-green-4.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setActiveString&activeString=active', '_blank');
+	window.open('https://ptab-services-eap-green-5.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setActiveString&activeString=active', '_blank');
+	window.open('https://ptab-services-eap-green-6.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setActiveString&activeString=active', '_blank');
+	window.open('https://ptab-services-eap-green-8.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setActiveString&activeString=active', '_blank');
+	window.open('https://ptab-services-eap-green-9.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setActiveString&activeString=active', '_blank');
+	window.open('https://ptab-services-eap-green-10.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setActiveString&activeString=active', '_blank');
+
+}
+
+
+
+
+function allowStateChgOnBlue()
+{
+	window.open('https://ptab-intservices-eap-blue-0.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=config', '_blank');
+	window.open('https://ptab-intservices-eap-blue-1.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=config', '_blank');
+	window.open('https://ptab-intservices-eap-blue-2.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=config', '_blank');
+	window.open('https://ptab-intservices-eap-blue-3.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=config', '_blank');
+
+	window.open('https://ptab-services-eap-blue-2.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=config', '_blank');
+	window.open('https://ptab-services-eap-blue-3.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=config', '_blank');
+	window.open('https://ptab-services-eap-blue-4.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=config', '_blank');
+	window.open('https://ptab-services-eap-blue-5.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=config', '_blank');
+	window.open('https://ptab-services-eap-blue-6.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=config', '_blank');
+	window.open('https://ptab-services-eap-blue-7.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=config', '_blank');
+}
+
+
+
+function allowStateChgOnGreen()
+{
+	window.open('https://ptab-intservices-eap-green-0.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=config', '_blank');
+	window.open('https://ptab-intservices-eap-green-1.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=config', '_blank');
+	window.open('https://ptab-intservices-eap-green-2.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=config', '_blank');
+	window.open('https://ptab-intservices-eap-green-4.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=config', '_blank');
+
+	window.open('https://ptab-services-eap-green-4.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=config', '_blank');
+	window.open('https://ptab-services-eap-green-5.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=config', '_blank');
+	window.open('https://ptab-services-eap-green-6.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=config', '_blank');
+	window.open('https://ptab-services-eap-green-8.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=config', '_blank');
+	window.open('https://ptab-services-eap-green-9.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=config', '_blank');
+	window.open('https://ptab-services-eap-green-10.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=config', '_blank');
+}
+
+
+
+function makeBlueActive()
+{
+	window.open('https://ptab-intservices-eap-blue-0.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsActive', '_blank');
+	window.open('https://ptab-intservices-eap-blue-1.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsActive', '_blank');
+	window.open('https://ptab-intservices-eap-blue-2.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsActive', '_blank');
+	window.open('https://ptab-intservices-eap-blue-3.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsActive', '_blank');
+
+	window.open('https://ptab-services-eap-blue-2.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsActive', '_blank');
+	window.open('https://ptab-services-eap-blue-3.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsActive', '_blank');
+	window.open('https://ptab-services-eap-blue-4.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsActive', '_blank');
+	window.open('https://ptab-services-eap-blue-5.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsActive', '_blank');
+	window.open('https://ptab-services-eap-blue-6.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsActive', '_blank');
+	window.open('https://ptab-services-eap-blue-7.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsActive', '_blank');
+}
+
+
+function makeBluePassive()
+{
+	window.open('https://ptab-intservices-eap-blue-0.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsPassive', '_blank');
+	window.open('https://ptab-intservices-eap-blue-1.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsPassive', '_blank');
+	window.open('https://ptab-intservices-eap-blue-2.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsPassive', '_blank');
+	window.open('https://ptab-intservices-eap-blue-3.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsPassive', '_blank');
+
+	window.open('https://ptab-services-eap-blue-2.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsPassive', '_blank');
+	window.open('https://ptab-services-eap-blue-3.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsPassive', '_blank');
+	window.open('https://ptab-services-eap-blue-4.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsPassive', '_blank');
+	window.open('https://ptab-services-eap-blue-5.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsPassive', '_blank');
+	window.open('https://ptab-services-eap-blue-6.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsPassive', '_blank');
+	window.open('https://ptab-services-eap-blue-7.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsPassive', '_blank');
+}
+
+function makeGreenPassive()
+{
+	window.open('https://ptab-intservices-eap-green-0.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsPassive', '_blank');
+	window.open('https://ptab-intservices-eap-green-1.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsPassive', '_blank');
+	window.open('https://ptab-intservices-eap-green-2.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsPassive', '_blank');
+	window.open('https://ptab-intservices-eap-green-4.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsPassive', '_blank');
+
+	window.open('https://ptab-services-eap-green-4.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsPassive', '_blank');
+	window.open('https://ptab-services-eap-green-5.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsPassive', '_blank');
+	window.open('https://ptab-services-eap-green-6.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsPassive', '_blank');
+	window.open('https://ptab-services-eap-green-8.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsPassive', '_blank');
+	window.open('https://ptab-services-eap-green-9.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsPassive', '_blank');
+	window.open('https://ptab-services-eap-green-10.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsPassive', '_blank');
+}
+
+
+function makeGreenActive()
+{
+	window.open('https://ptab-intservices-eap-green-0.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsActive', '_blank');
+	window.open('https://ptab-intservices-eap-green-1.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsActive', '_blank');
+	window.open('https://ptab-intservices-eap-green-2.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsActive', '_blank');
+	window.open('https://ptab-intservices-eap-green-4.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsActive', '_blank');
+
+	window.open('https://ptab-services-eap-green-4.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsActive', '_blank');
+	window.open('https://ptab-services-eap-green-5.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsActive', '_blank');
+	window.open('https://ptab-services-eap-green-6.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsActive', '_blank');
+	window.open('https://ptab-services-eap-green-8.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsActive', '_blank');
+	window.open('https://ptab-services-eap-green-9.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsActive', '_blank');
+	window.open('https://ptab-services-eap-green-10.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=setAsActive', '_blank');
+}
+
+
+
+
+function updateBlueStateFromDB()
+{
+	window.open('https://ptab-intservices-eap-blue-0.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=getStateFromDB', '_blank1','width=500,height=200,left=375,top=330');	
+	window.open('https://ptab-intservices-eap-blue-1.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=getStateFromDB', '_blank2','width=500,height=200,left=375,top=330');	
+	window.open('https://ptab-intservices-eap-blue-2.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=getStateFromDB', '_blank3','width=500,height=200,left=375,top=330');
+	window.open('https://ptab-intservices-eap-blue-3.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=getStateFromDB', '_blank4','width=500,height=200,left=375,top=330');
+	
+	window.open('https://ptab-services-eap-blue-2.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=getStateFromDB', '_blank5','width=500,height=200,left=375,top=330');
+	window.open('https://ptab-services-eap-blue-3.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=getStateFromDB', '_blank6','width=500,height=200,left=375,top=330');
+	window.open('https://ptab-services-eap-blue-4.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=getStateFromDB', '_blank7','width=500,height=200,left=375,top=330');
+	window.open('https://ptab-services-eap-blue-5.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=getStateFromDB', '_blank8','width=500,height=200,left=375,top=330');
+	window.open('https://ptab-services-eap-blue-6.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=getStateFromDB', '_blank8','width=500,height=200,left=375,top=330');
+	window.open('https://ptab-services-eap-blue-7.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=getStateFromDB', '_blank0','width=500,height=200,left=375,top=330');
+	
+}
+
+function updateGreenStateFromDB()
+{
+	window.open('https://ptab-intservices-eap-green-0.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=getStateFromDB', '_blank1','width=500,height=200,left=375,top=330');	
+	window.open('https://ptab-intservices-eap-green-1.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=getStateFromDB', '_blank2','width=500,height=200,left=375,top=330');	
+	window.open('https://ptab-intservices-eap-green-2.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=getStateFromDB', '_blank3','width=500,height=200,left=375,top=330');
+	window.open('https://ptab-intservices-eap-green-3.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=getStateFromDB', '_blank4','width=500,height=200,left=375,top=330');
+	
+	window.open('https://ptab-services-eap-green-2.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=getStateFromDB', '_blank5','width=500,height=200,left=375,top=330');
+	window.open('https://ptab-services-eap-green-3.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=getStateFromDB', '_blank6','width=500,height=200,left=375,top=330');
+	window.open('https://ptab-services-eap-green-4.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=getStateFromDB', '_blank7','width=500,height=200,left=375,top=330');
+	window.open('https://ptab-services-eap-green-5.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=getStateFromDB', '_blank8','width=500,height=200,left=375,top=330');
+	window.open('https://ptab-services-eap-green-6.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=getStateFromDB', '_blank8','width=500,height=200,left=375,top=330');
+	window.open('https://ptab-services-eap-green-7.pvt.uspto.gov:8443/bghealth/endpoint/aa?reqType=getStateFromDB', '_blank0','width=500,height=200,left=375,top=330');
+	
+	
+}
+
+
+
+
+function checkBlueEndpointsEAP()
+{
+	window.open('https://ptab-intservices-eap-blue-0.pvt.uspto.gov:8443/bghealth/endpoint', '_blank1','width=500,height=200,left=375,top=330');	
+	window.open('https://ptab-intservices-eap-blue-1.pvt.uspto.gov:8443/bghealth/endpoint', '_blank2','width=500,height=200,left=375,top=330');	
+	window.open('https://ptab-intservices-eap-blue-2.pvt.uspto.gov:8443/bghealth/endpoint', '_blank3','width=500,height=200,left=375,top=330');
+	window.open('https://ptab-intservices-eap-blue-3.pvt.uspto.gov:8443/bghealth/endpoint', '_blank4','width=500,height=200,left=375,top=330');
+	
+	window.open('https://ptab-services-eap-blue-2.pvt.uspto.gov:8443/bghealth/endpoint', '_blank5','width=500,height=200,left=375,top=330');
+	window.open('https://ptab-services-eap-blue-3.pvt.uspto.gov:8443/bghealth/endpoint', '_blank6','width=500,height=200,left=375,top=330');
+	window.open('https://ptab-services-eap-blue-4.pvt.uspto.gov:8443/bghealth/endpoint', '_blank7','width=500,height=200,left=375,top=330');
+	window.open('https://ptab-services-eap-blue-5.pvt.uspto.gov:8443/bghealth/endpoint', '_blank8','width=500,height=200,left=375,top=330');
+	window.open('https://ptab-services-eap-blue-6.pvt.uspto.gov:8443/bghealth/endpoint', '_blank8','width=500,height=200,left=375,top=330');
+	window.open('https://ptab-services-eap-blue-7.pvt.uspto.gov:8443/bghealth/endpoint', '_blank0','width=500,height=200,left=375,top=330');
+
+
+}
+
+
+
+
+function checkGreenEndpointsEAP()
+{
+
+    window.open('https://ptab-intservices-eap-green-0.pvt.uspto.gov:8443/bghealth/endpoint', '_blank1','width=500,height=200,left=375,top=330');	
+	window.open('https://ptab-intservices-eap-green-1.pvt.uspto.gov:8443/bghealth/endpoint', '_blank2','width=500,height=200,left=375,top=330');	
+	window.open('https://ptab-intservices-eap-green-2.pvt.uspto.gov:8443/bghealth/endpoint', '_blank3','width=500,height=200,left=375,top=330');
+	window.open('https://ptab-intservices-eap-green-3.pvt.uspto.gov:8443/bghealth/endpoint', '_blank4','width=500,height=200,left=375,top=330');
+	
+	window.open('https://ptab-services-eap-green-2.pvt.uspto.gov:8443/bghealth/endpoint', '_blank5','width=500,height=200,left=375,top=330');
+	window.open('https://ptab-services-eap-green-3.pvt.uspto.gov:8443/bghealth/endpoint', '_blank6','width=500,height=200,left=375,top=330');
+	window.open('https://ptab-services-eap-green-4.pvt.uspto.gov:8443/bghealth/endpoint', '_blank7','width=500,height=200,left=375,top=330');
+	window.open('https://ptab-services-eap-green-5.pvt.uspto.gov:8443/bghealth/endpoint', '_blank8','width=500,height=200,left=375,top=330');
+	window.open('https://ptab-services-eap-green-6.pvt.uspto.gov:8443/bghealth/endpoint', '_blank8','width=500,height=200,left=375,top=330');
+	window.open('https://ptab-services-eap-green-7.pvt.uspto.gov:8443/bghealth/endpoint', '_blank0','width=500,height=200,left=375,top=330');
+
+
+}
+
+
+
+
+function checkBlueEndpointsEWS()
+{
+
+    window.open('https://ptab-int-ews-blue-1.pvt.uspto.gov/bghealth/endpoint', '_blank1','width=500,height=200,left=375,top=330');	
+	window.open('https://ptab-int-ews-blue-2.pvt.uspto.gov/bghealth/endpoint', '_blank2','width=500,height=200,left=375,top=330');	
+	window.open('https://ptab-int-ews-blue-2.pvt.uspto.gov/bghealth/endpoint', '_blank3','width=500,height=200,left=375,top=330');
+	window.open('https://ptab-int-ews-blue-2.pvt.uspto.gov/bghealth/endpoint', '_blank4','width=500,height=200,left=375,top=330');
+
+}
+
+
+function checkGreenEndpointsEWS() 
+{
+
+    window.open('https://ptab-int-ews-green-1.pvt.uspto.gov/bghealth/endpoint', '_blank1','width=500,height=200,left=375,top=330');	
+	window.open('https://ptab-int-ews-green-2.pvt.uspto.gov/bghealth/endpoint', '_blank2','width=500,height=200,left=375,top=330');	
+	window.open('https://ptab-int-ews-green-2.pvt.uspto.gov/bghealth/endpoint', '_blank3','width=500,height=200,left=375,top=330');
+	window.open('https://ptab-int-ews-green-2.pvt.uspto.gov/bghealth/endpoint', '_blank4','width=500,height=200,left=375,top=330');
+}
+
+
+
+function gotoInternalPtabActive()
+{
+	window.open('https://ptabint-active.pvt.uspto.gov', '_blank');
+}
+
+function gotoInternalPtabPassive()
+{
+	window.open('https://ptabint-passive.pvt.uspto.gov', '_blank');
+}
+
+function gotoExternalPtabActive()
+{
+	window.open('https://ptab-pvt.etc.uspto.gov', '_blank');
+}
+
+function gotoExternalPtabPassive()
+{
+	window.open('https://ptab-pvt-passive.etc.uspto.gov', '_blank');
+}
+
+
+</script>
+</html>
